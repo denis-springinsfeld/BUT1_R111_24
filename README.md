@@ -29,9 +29,10 @@ Voici l'ordre dans lequel nous déclarons nos propriétés :
 La démarche de réordonnement est manuelle, en se servant de cette liste comme référence.
 
 Ref
-[Alsacreation](https://github.com/alsacreations/guidelines/blob/master/Guidelines-CSS.md)
-https://www.alsacreations.com/outils/guidelines/Guidelines-CSS.md
-[CUBE]()
+- [GuideLines](https://www.alsacreations.com/outils/guidelines/Guidelines-CSS.md)
+- [Alsacreation GuideLines](https://github.com/alsacreations/guidelines/blob/master/Guidelines-CSS.md)
+- [CUBE](https://cube.fyi)
+- [Reset CSS](https://piccalil.li/blog/a-more-modern-css-reset/) 
 
 
 ## Outils 
