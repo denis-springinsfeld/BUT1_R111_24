@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Volkhov:wght@700&display=swap");
+
+/* Variables CSS */
+:root {
+  --font-family-primary: "Vollkorn", serif;
+  --font-family-secondary: "PT Sans", sans-serif;
+
+  --color-border: rgb(52, 184, 151);
+  --color-text: #222022;
+}
+
+/* -- Reset ------------------------------------ */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+/* -- Style dde base ------------------------------------ */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Volkhov", serif;
+  color: var(--color-text);
+}
+
+/* -- Card ------------------------------------ */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 25rem;
+  padding: 1.25em 1.25em 2em;
+
+  border: solid 2px var(--color-border);
+  border-radius: 20px;
+  box-shadow: 0 10px 0 var(--color-border);
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.card__img-container {
+  position: relative;
+  border-radius: 20px;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+/* En CSS, ::after crée un pseudo-élément qui sera le dernier enfant de l'élément sélectionné. Il est souvent utilisé pour ajouter du contenu cosmétique à un élément, en utilisant la propriété CSS content. Par défaut, ce contenu est de type « en ligne ». */
+
+.card__img-container::after {
+  /* ➩ Renseignez vous sur la propriété content et ajouter GREEN */
+
+  /* ➩ Contexte de formatage permettant de center les éléments enfants */
+
+  
+  /* ➩ Position hors du flux  */
+
+  /* ➩ Prend la taille du parent */
+  
+
+  font-size: 2rem;
+
+  background-color: var(--color-border);
+  /* ➩ Opacité à 0 */
+
+  /* ➩ Transition */
+
+}
+
+.card:hover {
+  box-shadow: 0 4px 0 var(--color-border);
+  transform: translateY(4px);
+}
+
+.card:hover .card__img-container::after {
+  /* ➩ Opacité à 80% */
+
+}

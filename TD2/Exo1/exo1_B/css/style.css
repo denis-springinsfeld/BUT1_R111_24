@@ -1,0 +1,36 @@
+/* -- Reset ------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+
+}
+
+/* -- flex-container et flex-items ------------------------------------ */
+
+
+.flex-container {
+  /* ➩ Jouer avec le contexte de formatage Flexbox pour centrer notre div */
+
+  /* ➩ Utiliser les propriété d'alignement sur l'axe principal et sur l'axe secondaire pour déplacer notre div */
+
+  
+}
+
+.flex-item {
+  /* Dimensionner votre div, pour obtenir un carré de coté 20rem */
+
+  
+
+  /* ➩ Contexte de formatage Flexbox */
+
+  
+
+  /* ➩ Donner une couleur d'arrière plan */
+
+}
