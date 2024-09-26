@@ -55,7 +55,7 @@ html {
 
 Commentez tous votre travail `<!-- -->`.
 
-💻 Ajouter un nouveau lien `'basic button'` contenant un attribut de **classe `'btn'`**.
+💻 Ajouter un nouveau lien à votre page html `'basic button'` contenant un attribut de **classe `'btn'`**.
 
 **Remarque sur l'ordre des déclarations**
 Les déclarations au sein d'une règle CSS sont ordonnées de façon à faire apparaître les propriétés importantes en tête de liste.
