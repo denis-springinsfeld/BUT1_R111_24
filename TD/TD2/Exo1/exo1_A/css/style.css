@@ -1,0 +1,32 @@
+/* -- Reset ------------------------------------ */
+
+*,
+*::before,
+*::after {
+  /* ➩ Détérmine le mode de calcul des dimensions d'un élément */
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  border: solid 5px blue;
+}
+body {
+  height: 100%;
+  border: solid 5px green;
+}
+
+/* -- ma-div ------------------------------------ */
+
+.ma-div {
+  /* ➩ Dimensionner votre div, pour obtenir un carré de coté 20rem - donnez une seconde méthode en regardant la propriété aspect-ratio */
+
+  width: 10rem;
+  aspect-ratio: 1/1;
+
+  /* ➩ Trouver le moyen de center votre div sur l'axe horizontal de votre page en utilisant une valeur particulière des marges externe */
+  margin: auto;
+
+  /* ➩ Donner une couleur d'arrière plan */
+  background-color: rgb(255, 0, 0);
+}
