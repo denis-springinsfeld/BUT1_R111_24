@@ -1,0 +1,129 @@
+/* Ajout de Police depuis Google Font */
+/*(!) Attention avec le nombre de typos importées : le mieux, ce limiter à 3 typos, la différence de graisse comptant pour une typo à part entière
+*/
+/* ➩ Ajout de la font: 'Roboto' Bold : https://fonts.google.com/*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+:root {
+  /* Mode chaine de caractère à utiliser avec hsl() */
+  --clr-light: 0 0% 100%;
+  --clr-dark: 0 0% 0%;
+  --clr-primary: 210 100% 54%;
+  --ff-sans: "Roboto", sans-serif;
+}
+
+/* --- Mini Reset ---------------------------------------------------- */
+*,
+*::after,
+*::before {
+  /* ➩ Cette propriété CSS définit la façon dont la hauteur et la largeur totale d'un élément est calculée. Ici le navigateur prendre en compte la bordure et le remplissage dans la valeur définie pour la largeur et la hauteur. */
+  box-sizing: border-box;
+}
+
+ul {
+  /* ➩ Supprime le padding */
+  padding: 0;
+  /* ➩ Supprime les puces des éléments de liste */
+  list-style: none;
+}
+
+img,
+svg {
+  /* ➩ l'image responsive : occupe 100% max de la taille du parent  */
+}
+
+/* =================================
+Exo 2 : Avatar
+================================= */
+
+/* Les Avatars
+-------------------------------------- */
+/* BLOC */
+.avatar {
+  /* ➩ Masque le débordement */
+
+  /* ➩ Largeur de 128px en unités relative */
+
+  /* ➩ height: 8rem; */
+
+  /* ➩ Bord arrondi afin d'obtenir un cercle */
+
+  /* ➩ Ajout d'une ombre portée */
+}
+
+.avatar__img {
+  /*  */
+  /* Taille de l'image 100% de la largeur et de la hauteur du parent */
+
+  /* ➩ Propriété définissant la façon dont le contenu d'un élément remplacé (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.*/
+}
+
+/* -- Modifier -------------------------------- */
+
+/* version large */
+.avatar--large {
+  /* ➩ Augmenter la largeur */
+}
+/* version avec bordure */
+.avatar--bordered {
+  /* ➩ Ajouter une bordure */
+}
+
+/* version forme carrée */
+.avatar--square {
+  /* ➩ Retouver la forme rectangulaire */
+}
+
+/* version gradient */
+.avatar--b-gradient {
+  /* Ajouter une bordure transparente */
+
+  /* ➩  Ajouter un gradient cf: https://cssgradient.io/ */
+}
+
+/* version contour éloigné */
+.avatar--b-double {
+  /* ➩ Ajouter une bordure : outline */
+
+  /* ➩ Ajouter un offset négatif */
+}
+
+/* version avec badge */
+.avatar__badge {
+  /* ➩ Contexte de rendu CSS et center axe principal et axe secondaire */
+
+  /* ➩ Utiliser des unités relative à la taille de la police de l'élément parent
+      pour dimentionner la largeur et la hauteur de cet élément*/
+
+  /* Positionnement avec comme référent le parent de cet élément (ici .avatarList__item)
+      Utilisez une unité relative à la taille de l'élément parent pour le positionner */
+
+  /* ➩ Police de caractère sans empattement, caractère gras, couleur blanche */
+
+  /* ➩ Taille des caractères */
+
+  /* ➩ Bord arrondi afin d'obtenir un cercle */
+
+  /* ➩ Couleur arrière plan : #f92986 */
+}
+
+/* -- Pseudo-Classe -------------------------------- */
+/* Au survol */
+/* La pseudo-classe :hover permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer. */
+.avatar:hover {
+  /* ➩ Modifie l'ombre portée au survol */
+}
+
+/* Liste de tous les avatars 
+  -------------------------------------- */
+.avatarList {
+  /* ➩ Configuration du contexte de positionnement */
+
+  /* ➩ Permet le retour à la ligne si l'espace vient à manquer */
+
+  /* ➩ Gouttière entre les éléments flexibles */
+}
+
+.avatarList__item {
+  /* Cet élément est dit positionné et devient le référent pour le positionnement de ces enfants */
+}

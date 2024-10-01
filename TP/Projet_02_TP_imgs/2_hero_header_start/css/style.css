@@ -1,0 +1,126 @@
+/* Ajout de Police depuis Google Font */
+/*(!) Attention avec le nombre de typos importées : le mieux, ce limiter à 3 typos, la différence de graisse comptant pour une typo à part entière
+*/
+
+/* ➩ Ajout de la font: 'Roboto' Bold : https://fonts.google.com/*/
+
+
+/* --- Mini Reset ---------------------------------------------------- */
+/* Un "reset" CSS permettant d'harmoniser les styles par défaut des navigateurs est systématiquement appliqué en début de projet. */
+
+*,
+*::before,
+*::after {
+   /* ➩ Cette propriété CSS définit la façon dont la hauteur et la largeur totale d'un élément est calculée. Ici le navigateur prendre en compte la bordure et le remplissage dans la valeur définie pour la largeur et la hauteur. */
+
+  }
+
+/* =================================
+   Exo Hero :
+   ================================= */
+
+.hero-header {
+/* 1 - Display & Box Model -------------------- */
+  /* ➩ Le type d'affichage utilisée pour le rendu Css de l'élément css est de type boîte flexible et en ligne */
+
+  /* ➩ L'élément est centré sur l'axe principal */
+
+  /* ➩ L'élément est centré sur l'axe secondaire */
+
+  
+  /* ➩ Marge interne de 5x la taille de la police de l'élément en haut et en bas uniquement.
+  Il est aussi possible d'utiliser les nouvelles propriété logique 
+  cf. : https://developer.mozilla.org/fr/docs/Web/CSS/padding-block
+   */
+
+
+/* 2 - Typographie ------------------------------ */
+  /* ➩ Utilisation de caractères sans empattement */
+
+  
+/* 3 - Effets Viusels & Graphiques ----------------------- */
+  /* ➩ 1- Ajouter une image à votre arrière plan (regarder la propriété background-image) 
+  avec l'utilisation d'un site 'placeholder' comme url
+  "https://source.unsplash.com/800x600/?landscape"*/
+
+  
+  /* ➩ 2 - Il est possible de rajouter plusieurs images à un arrière plan, nous allons ici rajoute
+  un linear-gradient - chercher des informations sur son fonctionnement - (⚠️ ATTENTION à la transparence) 
+  et une image : https://source.unsplash.com/800x600/?landscape 
+  Couleurs : rgba(207, 19, 154, 0.4) et rgba(96, 47, 209, 0.5)
+  */
+
+  
+
+  /* ➩ background-blend-mode définit la façon dont les images d'arrière-plan 
+  doivent être fusionnées entre elles et avec la couleur d'arrière-plan. 
+  Testez les différentes valeurs de cette propriété */
+
+  
+  /* ➩ Ajouter et testez les différentes valeurs de background-size */
+
+  
+  /* ➩ Ajouter un contour à l'élément header (⚠️ ce n'est pas une bordure)*/
+
+  
+
+/* 4 - Transitions & Transformations --------------*/
+  /* ➩ Ajouter une transition .3s sur la propriété offset */
+
+  
+  /* ➩ Modifie l'état du curseur */
+
+}
+
+/* La pseudo-classe :hover permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer. */
+.hero-header:hover {
+  /* ➩ Modiffier le offset au survol de l'élément, valeur négative */
+
+}
+
+.hero-header__headding {
+  /* ➩ la taille de cet élément fait la moitié de la taille de son parent */
+
+  /* ➩ Marges Internes en unité relative */
+
+  
+  /* ➩ Taille des caractères exprimée en fonction de la taille du viewport*/
+  /* cf. Responsive And Fluid Typography */
+
+  /* ➩ Graisse des caractères Bold */
+
+  /* ➩ Texte en lettres capitales */
+  
+  /* ➩ Centrer text */
+
+  /* ➩ Couleur du texte noir */
+
+
+  /* ➩ Arrière plan blanc */
+
+  
+  /* ➩ La propriété mix-blend-mode décrit la façon dont le contenu
+  d'un élément doit se mélanger avec le contenu de l'élément en
+  dessous et avec son arrière-plan – mode de fusion comme sur Photoshop.
+  Cherchez les valeurs de cettes propriétés et testez les pour faire apparaitre l'image d'arrière plan. */
+
+  
+  /* ➩ Variante Comment obtenir un texte transparent sur fond noir ? */
+
+  
+  /* ➩ Les contours (outline) diffèrent des bordures, notamment sur les points suivants :
+  Les contours ne prennent pas d'espace et sont dessinés au-dessus du contenu.
+  Les contours peuvent avoir une forme qui n'est pas rectangulaire.   
+  Ajouter un contour avec un offset de 3px (outline-offset)  
+  */
+
+  
+
+  /* ➩ Utilisation d'une propriété encore en développement 
+  qui nécessite l'utilisation de préfixes pour être reconnue
+  par les différents navigateurs.
+  La propriété user-select permet de contrôler l'opération de sélection.
+  Le texte n'est ici pas sélectionnable*/
+
+  
+}
