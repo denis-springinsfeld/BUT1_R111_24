@@ -1,0 +1,85 @@
+/* -- Reset ------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4e65;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* -- Style de base ------------------------------------ */
+
+body {
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  /* ➩ Hauteur 100% du parent */
+
+  /* ➩ Contexte de formatage permettant de centrer horizontalement et verticalement */
+
+  
+}
+
+/* -- Card ------------------------------------ */
+
+.card {
+  /* ➩ Référent dans le positionnement des enfants */
+
+  /* ➩ Largeur de 320px */
+
+  /* ➩ Débordement masqué */
+
+  
+  /* ➩ Curseur */
+
+}
+
+.card__img-container {
+  /* ➩ Position hors du flux */
+
+  /* ➩ Prend toute la largeur et la hauteur du parent */
+
+  /* ➩ Ratio H/L 1 */
+
+  /* ➩ Débordement masqué */
+
+  /* ➩ Clr Arrière plan */
+
+  /* ➩ Transition */
+
+}
+
+.card__icon {
+  /* ➩ Couleur propriété fill du svg */
+
+}
+
+.card__desc {
+  /* ➩ Ratio H/L 1 */
+
+  /* ➩ Marge Interne de 48px 32px 48px 32px */
+
+  /* ➩ Bordure */
+
+}
+
+.card:hover .card__img-container {
+  /* ➩ Translation de 100% du parent - renseignez vous sur les propriétés transform et ou translate */
+
+}
