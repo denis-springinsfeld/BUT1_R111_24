@@ -1,0 +1,108 @@
+/* @import google font */
+
+:root {
+  /* Variables CSS */
+
+  /* Contextualisation */
+}
+/* -- Reset */
+*,
+*::before,
+*::after {
+  /* ➩ Calcul des dimensions de la boite intégre la marge interne et la bordure*/
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  /* ➩ Supprime les marges externes */
+}
+
+/* Reset liste */
+ul,
+ol {
+  /* ➩ Supprime le padding */
+
+  /* ➩ Supprime les puces des éléments de liste */
+}
+
+/* link */
+a,
+a:active,
+a:visited {
+  /* ➩ Supprime le soulignement des liens */
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  /* ➩ l'image responsive : occupe 100% max de la taille du parent  */
+
+  /* ➩ l'image à un rendu Block  */
+}
+
+/* Base */
+
+body {
+  /* ➩ Police de caractére */
+
+  /* ➩ Taille de la police */
+
+  /* ➩ Couleur de la police */
+
+  /* ➩ Couleur de fond */
+}
+
+.container {
+  /* ➩ hauteur de la boite 100% de l'écran */
+
+  /* ➩ centrage des éléments */
+}
+
+.card {
+  /* ➩ Largeur de la boite */
+
+  /* ➩ Contexte de positionnement en colonne... */
+
+  /* ➩ Espacement interne */
+
+  /* ➩ Alignement du texte */
+
+  /* ➩ Couleur de fond */
+
+  /* ➩ Ombre portée */
+
+  /* ➩ Arrondi des coins */
+}
+
+.card__image-container {
+  /* ➩ Dépassement de la boite caché */
+  overflow: hidden;
+
+  /* ➩ Ombre portée */
+
+  /* ➩ Arrondi des coins */
+}
+
+.card__image {
+}
+
+.card__content {
+  /* ➩ Contexte de positionnement en colonne... */
+
+  /* ➩ Espacement interne */
+}
+.card__title {
+  /* ➩ Couleur du texte */
+}
+.card__paragraph {
+  /* ➩ Couleur du texte */
+}
