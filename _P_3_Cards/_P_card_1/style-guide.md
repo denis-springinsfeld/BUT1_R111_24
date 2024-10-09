@@ -1,5 +1,8 @@
 # QR Code Card
 
+Intégration de la carte QR Code.
+Création du fichier html en respectant les classes utilisées dans le css.
+
 ## Colors
 
 - White: hsl(0, 0%, 100%)
