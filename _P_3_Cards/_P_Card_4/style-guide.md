@@ -1,3 +1,12 @@
+# Cards 4
+
+Intégration des cartes.
+
+![ecran](./ecran/S.jpg)
+![ecran](./ecran/L.jpg)
+
+
+
 ## Colors
 
 ### Primary
