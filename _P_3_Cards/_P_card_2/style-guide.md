@@ -1,6 +1,6 @@
 # Card 2 Profile 
 
-Intégration de la carte.
+Intégration de la carte. Ajouter des effet au hover.
 
 ![ecran](./ecran/mobile-design.jpg)
 
