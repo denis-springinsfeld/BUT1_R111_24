@@ -1,4 +1,4 @@
-_# QR Code Card
+# QR Code Card
 
 Intégration de la carte QR Code.
 Création du fichier html en respectant les classes utilisées dans le css.
